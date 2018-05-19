@@ -3,7 +3,7 @@
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  *
  * @package    Fuel
- * @version    1.9-dev
+ * @version    develop
  * @author     Fuel Development Team
  * @license    MIT License
  * @copyright  2010 - 2018 Fuel Development Team
@@ -16,7 +16,7 @@ use Dwoo;
 use Dwoo_Compiler;
 use Dwoo_Security_Policy;
 
-class View_Dwoo extends \View
+class View_Dwoo extends View
 {
 	protected static $_parser;
 	protected static $_parser_compiler;

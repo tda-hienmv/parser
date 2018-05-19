@@ -3,7 +3,7 @@
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  *
  * @package    Fuel
- * @version    1.9-dev
+ * @version    develop
  * @author     Fuel Development Team
  * @license    MIT License
  * @copyright  2010 - 2018 Fuel Development Team
@@ -18,7 +18,8 @@ use Twig_Loader_Filesystem;
 use Twig_Lexer;
 use MtHaml;
 
-class View_HamlTwig extends View_Twig {
+class View_HamlTwig extends View_Twig
+{
 	protected static $_environment;
 
 	/**

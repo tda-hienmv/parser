@@ -3,7 +3,7 @@
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  *
  * @package    Fuel
- * @version    1.9-dev
+ * @version    develop
  * @author     Fuel Development Team
  * @license    MIT License
  * @copyright  2010 - 2018 Fuel Development Team
@@ -15,7 +15,7 @@ namespace Parser;
 use Mustache_Engine;
 use Mustache_Loader_FilesystemLoader;
 
-class View_Mustache extends \View
+class View_Mustache extends View
 {
 	protected static $_parser;
 
