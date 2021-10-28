@@ -63,7 +63,7 @@ return array(
 		'environment' => array(
 			'debug'               => false,
 			'charset'             => 'utf-8',
-			'base_template_class' => 'Twig_Template',
+			'base_template_class' => 'Twig\Template',
 			'cache'               => APPPATH.'cache'.DS.'twig'.DS,
 			'auto_reload'         => true,
 			'strict_variables'    => false,
