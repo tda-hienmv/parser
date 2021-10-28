@@ -1,5 +1,5 @@
 {
-	"name": "fuel/parser",
+	"name": "tda-hienmv/parser",
 	"description" : "FuelPHP 1.x Parser Package",
 	"type": "fuel-package",
 	"homepage": "https://github.com/fuel/parser",
